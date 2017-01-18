@@ -1,10 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+    box-sizing: border-box;
+    /*reset Chrome user agent styles*/
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0px;
+    -webkit-padding-after: 0px;
+    -webkit-padding-start: 0px;
+    -webkit-padding-end: 0px;
+    /*reset Firefox user agent styles*/
+    -moz-margin-before: 0px;
+    -moz-margin-after: 0px;
+    -moz-margin-start: 0px;
+    -moz-margin-end: 0px;
+    -moz-padding-before: 0px;
+    -moz-padding-after: 0px;
+    -moz-padding-start: 0px;
+    -moz-padding-end: 0px;
+    /*reset Internet Explorer user agent styles*/
+    -ms-margin-before: 0px;
+    -ms-margin-after: 0px;
+    -ms-margin-start: 0px;
+    -ms-margin-end: 0px;
+    -ms-padding-before: 0px;
+    -ms-padding-after: 0px;
+    -ms-padding-start: 0px;
+    -ms-padding-end: 0px;
+    /*reset Opera user agent styles*/
+    -o-margin-before: 0px;
+    -o-margin-after: 0px;
+    -o-margin-start: 0px;
+    -o-margin-end: 0px;
+    -o-padding-before: 0px;
+    -o-padding-after: 0px;
+    -o-padding-start: 0px;
+    -o-padding-end: 0px;
+}
 
 body {
 	 font-family: 'Open Sans', sans-serif; 
+	background-color: #93909d;
+	color: #002c4c;
      }
+     	/*header */
+
 header {
-  margin: 0 0 30px 0;
-  padding: 5px 0 0 0;
+  margin: 0px 0px 30px 0px;
+  padding: 5px 0px 0px 0px;
   width: 100%;
   background: #80647f;
   border-color: #599a68;
@@ -24,13 +71,7 @@ h3 {
 	color: #002c4c;
 	}
 	
-footer { 
-	color: #bbc;
-	font-size: 0.75em;
-	text-align: center;
-	clear: both;
-	}
-	
+	/*content */
 a {
 	text-decoration: none;
 	color: #6ab47b;
@@ -39,7 +80,6 @@ a {
 .wrapper {
 	max-width: 940px;
 	margin: 0 auto;
-	padding: 0 5%;
 	}
 
  
@@ -48,6 +88,9 @@ a {
  	padding: 0;
  	list-style: none;
  }
+ .gallery img{
+     border-radius: 5%;
+}
  .gallery li {
  	float: left;
  	width: 45%;
@@ -62,10 +105,7 @@ a {
   font-size: 0.75em;
   color: #bdc3c7
 }
-body {
-	background-color: #93909d;
-	color: #002c4c;
- 	 }
+
 img {
 	max-width: 100%;
 	}
@@ -115,7 +155,6 @@ nav a.selected, nav a:hover {
     border-radius: 100%;
 }
 
-
 .contact-info{
     list-style: none;
     padding: 0;  
@@ -128,8 +167,16 @@ nav a.selected, nav a:hover {
     background-repeat: no-repeat;
     background-size: 20px 20px;
 }
+
+footer { 
+	color: #bbc;
+	font-size: 0.75em;
+	text-align: center;
+	}
+	
+	/*reposnsive */
 @media only screen and (max-width: 800px) {
-    .wrapper
+    .wrapper, 
      {
         width: 100%;
         padding: 20px;
@@ -139,4 +186,5 @@ nav a.selected, nav a:hover {
     .gallery img {
         height: auto;
     }
+    
 }
