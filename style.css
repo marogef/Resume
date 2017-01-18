@@ -36,19 +36,19 @@ a {
 	color: #6ab47b;
 	}
 	
-#wrapper {
+.wrapper {
 	max-width: 940px;
 	margin: 0 auto;
 	padding: 0 5%;
 	}
 
  
- #gallery {
+ .gallery {
  	margin: 0;
  	padding: 0;
  	list-style: none;
  }
- #gallery li {
+ .gallery li {
  	float: left;
  	width: 45%;
  	margin: 2.5%;
@@ -56,7 +56,7 @@ a {
  	color: #bdc3c7;
  	}
  
-#gallery li a p {
+.gallery li a p {
   margin: 0;
   padding: 5%;
   font-size: 0.75em;
@@ -127,4 +127,16 @@ nav a.selected, nav a:hover {
     min-height: 20px;
     background-repeat: no-repeat;
     background-size: 20px 20px;
+}
+@media only screen and (max-width: 800px) {
+    .wrapper
+     {
+        width: 100%;
+        padding: 20px;
+        border-top: none;
+        margin-bottom: 20px;
+    }
+    .gallery img {
+        height: auto;
+    }
 }
