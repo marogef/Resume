@@ -70,6 +70,9 @@ h2 {
     text-align: center;
 }
 
+
+/*content */
+
 h1 p {
     color: #6c4f70;
     font-size: 17px;
@@ -80,9 +83,6 @@ h3 {
     margin: 0 0 1em 0;
     color: #002c4c;
 }
-
-
-/*content */
 
 a {
     text-decoration: none;
@@ -171,6 +171,10 @@ nav a:hover {
     margin: 0 5px;
 }
 
+.wrapper ul {
+    color: bisque;
+}
+
 .best {
     display: block;
     max-width: 150px;
@@ -198,6 +202,7 @@ nav a:hover {
 footer {
     color: #bbc;
     font-size: 0.75em;
+    margin-top: 50px;
 }
 
 
