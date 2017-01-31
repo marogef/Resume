@@ -184,10 +184,11 @@ nav a:hover {
 .contact-gallery{
     margin-right: auto;
     margin-left: auto;
-    width: 610px;
+    width: 582px;
     margin-bottom: 20px;
-    padding: 2rem;
-    border-radius: 7%;
+    border:  10px dashed black; 
+    border-radius: 5px;
+    height: 359px;
 
 }
 .contact-info {
