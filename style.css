@@ -181,7 +181,15 @@ nav a:hover {
     margin: 0 auto 38px;
     border-radius: 100%;
 }
+.contact-gallery{
+    margin-right: auto;
+    margin-left: auto;
+    width: 610px;
+    margin-bottom: 20px;
+    padding: 2rem;
+    border-radius: 7%;
 
+}
 .contact-info {
     list-style: none;
     padding: 0;
@@ -194,8 +202,12 @@ nav a:hover {
     min-height: 20px;
     background-repeat: no-repeat;
     background-size: 20px 20px;
+     background-image: url(email-icon.png);
+    
 }
-
+.contact-details{
+margin-top: 50px;
+}
 
 /*Footer*/
 
@@ -203,6 +215,7 @@ footer {
     color: #bbc;
     font-size: 0.75em;
     margin-top: 50px;
+    margin-left: 590px;
 }
 
 
