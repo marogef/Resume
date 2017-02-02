@@ -172,7 +172,7 @@ nav a:hover {
 }
 
 .wrapper ul {
-    color: bisque;
+    color: #93909d;
 }
 
 .best {
@@ -181,16 +181,17 @@ nav a:hover {
     margin: 0 auto 38px;
     border-radius: 100%;
 }
-.contact-gallery{
+
+.contact-gallery {
     margin-right: auto;
     margin-left: auto;
     width: 582px;
     margin-bottom: 20px;
-    border:  10px dashed black; 
+    border: 10px dashed black;
     border-radius: 5px;
     height: 359px;
-
 }
+
 .contact-info {
     list-style: none;
     padding: 0;
@@ -203,12 +204,28 @@ nav a:hover {
     min-height: 20px;
     background-repeat: no-repeat;
     background-size: 20px 20px;
-     background-image: url(email-icon.png);
-    
+    background-image: url(email-icon.png);
 }
-.contact-details{
-margin-top: 50px;
+
+.contact-details {
+    margin-top: 50px;
 }
+
+.projects {
+    width: 900px;
+}
+
+.projects .first-image,
+.projects .sec-image {
+    border-radius: 5%;
+    max-width: 100%;
+}
+
+.projects li {
+    margin: 2.5%;
+    background-color: #f5f534;
+}
+
 
 /*Footer*/
 
@@ -216,7 +233,9 @@ footer {
     color: #bbc;
     font-size: 0.75em;
     margin-top: 50px;
-    margin-left: 590px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 168px;
 }
 
 
